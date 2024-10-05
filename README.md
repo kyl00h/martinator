@@ -1,5 +1,7 @@
 # StopWatch
-Piccola applicazione web che integra un NVR (Network Video Recorder) per catturare e visualizzare filmati di sorveglianza.
+Per un progetto di gruppo, previsto dal mio corso di studi, ho avuto modo di sviluppare una piccola applicazione web che integra un NVR (Network Video Recorder) per catturare e visualizzare filmati di sorveglianza.
 
-Il progetto comprende un server web API sviluppato con ASP.NET Core, che interagisce con l'API di un NVR per scaricare e salvare registrazioni video specifiche, 
-e un'interfaccia web front-end in React con Typescript e Tailwind CSS per la visualizzazione e il download delle registrazioni delle telecamere.
+Il software comprende:
+- Un server web API sviluppato con ASP.NET Core, che interagisce con l'API di un NVR per scaricare e salvare registrazioni video specifiche
+- Un'interfaccia web in React con Typescript e Tailwind CSS per la visualizzazione e il download delle registrazioni delle telecamere
+- Una scheda arduino collegata a un bottone, che una volta premuto interagisce con il server web API per lo scaricamento dei filmati.
